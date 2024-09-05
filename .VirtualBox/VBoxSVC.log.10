@@ -1,0 +1,56 @@
+00:00:00.009135 main     VirtualBox COM Server 7.0.14 r161095 win.amd64 (Jan 15 2024 14:59:30) release log
+00:00:00.009140 main     Log opened 2024-04-22T18:40:56.598579900Z
+00:00:00.009141 main     Build Type: release
+00:00:00.009158 main     OS Product: Windows 8
+00:00:00.009160 main     OS Release: 6.2.9200
+00:00:00.009161 main     OS Service Pack: 
+00:00:00.089069 main     DMI Product Name: HP EliteBook 830 G5
+00:00:00.131150 main     DMI Product Version:  
+00:00:00.131198 main     Firmware type: BIOS
+00:00:00.131220 main     Host RAM: 16227MB (15.8GB) total, 10013MB (9.7GB) available
+00:00:00.131230 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.131231 main     Process ID: 11944
+00:00:00.131232 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.279321          VirtualBox: object creation starts
+00:00:00.280245          Home directory: 'C:\Users\hp\.VirtualBox'
+00:00:00.280594          Installed Drivers:
+00:00:00.293485            C:\Windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.0.14.11095)
+00:00:00.295574            C:\Windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 7.0.14.11095)
+00:00:00.296575            C:\Windows\system32\DRIVERS\VBoxSup.sys (Version: 7.0.14.11095)
+00:00:00.298614            C:\Windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 7.0.14.11095)
+00:00:00.324763          Loading settings file "C:\Users\hp\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.342400          usbLibGetDevices: Starting USB device enumeration
+00:00:00.368220          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2488ff5&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:00:00.368436          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2488ff5&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 9
+00:00:00.368613          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2488ff5&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:00.374389          usbLibGetDevices: Found 3 USB devices, 0 captured
+00:00:00.374569          USB: Unknown USB device detected (idVendor: 0x04f2, idProduct: 0xb5ee)
+00:00:00.375323          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0a2b)
+00:00:00.487081          HostDnsMonitor: initializing
+00:00:00.515110          HostDnsMonitor: updating information
+00:00:00.515238          HostDnsMonitor: old information
+00:00:00.515239            no server entries
+00:00:00.515241            no domain set
+00:00:00.515241            no search string entries
+00:00:00.515242          HostDnsMonitor: new information
+00:00:00.515243            server 1: 8.8.8.8
+00:00:00.515244            server 2: 8.8.4.4
+00:00:00.515245            no domain set
+00:00:00.515246            no search string entries
+00:00:00.520598          VD: VDInit finished with VINF_SUCCESS
+00:00:00.605361          Loading settings file "C:\Users\hp\VirtualBox VMs\target\target.vbox" with version "1.19-windows"
+00:00:00.660909          VirtualBox: object created
+00:00:01.033631          Saving settings file "C:\Users\hp\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.048584          Finished saving settings file "C:\Users\hp\.VirtualBox\VirtualBox.xml"
+00:00:01.051845          Saving settings file "C:\Users\hp\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.062615          Finished saving settings file "C:\Users\hp\.VirtualBox\VirtualBox.xml"
+00:00:01.064568          Saving settings file "C:\Users\hp\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.077641          Finished saving settings file "C:\Users\hp\.VirtualBox\VirtualBox.xml"
+00:00:08.957653          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Aborted)}, preserve=false aResultDetail=0
+00:01:03.546177 main     VirtualBox: object deletion starts
+00:01:03.546729 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\hp\VirtualBox VMs\target\Snapshots/{65a212f7-ea38-4b62-a9fe-0242cc71c9fb}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:01:03.578120 main     ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={6cc49055-dad4-4496-85cf-3f76bcb3b5fa} aComponent={SnapshotWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:03.646203 main     HostDnsMonitor: shutting down ...
+00:01:03.646727 main     HostDnsMonitor: shut down
+00:01:03.683148 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:03.686715 main     VirtualBox: object deleted

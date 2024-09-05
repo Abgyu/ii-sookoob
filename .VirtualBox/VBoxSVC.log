@@ -1,0 +1,79 @@
+00:00:00.029230 main     VirtualBox COM Server 7.0.18 r162988 win.amd64 (May  2 2024 10:02:33) release log
+00:00:00.029243 main     Log opened 2024-08-09T12:41:53.575363700Z
+00:00:00.029250 main     Build Type: release
+00:00:00.030225 main     OS Product: Windows 8
+00:00:00.030235 main     OS Release: 6.2.9200
+00:00:00.030238 main     OS Service Pack: 
+00:00:00.318129 main     DMI Product Name: HP EliteBook 830 G5
+00:00:00.383623 main     DMI Product Version:  
+00:00:00.383707 main     Firmware type: BIOS
+00:00:00.383745 main     Host RAM: 16227MB (15.8GB) total, 8687MB (8.4GB) available
+00:00:00.384723 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.384730 main     Process ID: 2188
+00:00:00.384733 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.654451          VirtualBox: object creation starts
+00:00:00.662266          Home directory: 'C:\Users\hp\.VirtualBox'
+00:00:00.663863          Installed Drivers:
+00:00:00.685429            C:\Windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.0.18.12988)
+00:00:00.690596            C:\Windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 7.0.18.12988)
+00:00:00.693985            C:\Windows\system32\DRIVERS\VBoxSup.sys (Version: 7.0.18.12988)
+00:00:00.700114            C:\Windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 7.0.18.12988)
+00:00:00.769509          Loading settings file "C:\Users\hp\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.809040          usbLibGetDevices: Starting USB device enumeration
+00:00:00.848780          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2488ff5&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:00:00.850491          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2488ff5&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 9
+00:00:00.850864          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2488ff5&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:00.861574          usbLibGetDevices: Found 3 USB devices, 0 captured
+00:00:00.867145          USB: Unknown USB device detected (idVendor: 0x04f2, idProduct: 0xb5ee)
+00:00:00.874403          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0a2b)
+00:00:01.224053          HostDnsMonitor: initializing
+00:00:01.271973          HostDnsMonitor: updating information
+00:00:01.273888          HostDnsMonitor: old information
+00:00:01.273892            no server entries
+00:00:01.273894            no domain set
+00:00:01.273895            no search string entries
+00:00:01.273896          HostDnsMonitor: new information
+00:00:01.273897            server 1: 8.8.8.8
+00:00:01.273898            server 2: 8.8.4.4
+00:00:01.273900            no domain set
+00:00:01.273900            no search string entries
+00:00:01.507496          VD: VDInit finished with VINF_SUCCESS
+00:00:01.576812          Loading settings file "C:\Users\hp\VirtualBox VMs\target\target.vbox" with version "1.19-windows"
+00:00:01.639638          Loading settings file "C:\kali-linux-2024.2-virtualbox-amd64\kali-linux-2024.2-virtualbox-amd64.vbox" with version "1.19-windows"
+00:00:01.657162          VirtualBox: object created
+00:00:02.242265          Saving settings file "C:\Users\hp\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:02.261616          Finished saving settings file "C:\Users\hp\.VirtualBox\VirtualBox.xml"
+00:00:02.266461          Saving settings file "C:\Users\hp\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:02.292929          Finished saving settings file "C:\Users\hp\.VirtualBox\VirtualBox.xml"
+00:00:02.296994          Saving settings file "C:\Users\hp\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:02.320382          Finished saving settings file "C:\Users\hp\.VirtualBox\VirtualBox.xml"
+00:00:09.550147          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:00:25.959508          Launched VM: 4290770096 pid: 20628 (0x5094) frontend: GUI/Qt name: kali-linux-2024.2-virtualbox-amd64
+00:00:26.045959          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:00:37.190908          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:00:38.354103          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:47.249770          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Restoring)}, preserve=false aResultDetail=0
+00:00:47.361619          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Restoring)}, preserve=false aResultDetail=0
+00:00:49.449177          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:01:02.058742          Saving settings file "C:\kali-linux-2024.2-virtualbox-amd64\kali-linux-2024.2-virtualbox-amd64.vbox" with version "1.19-windows"
+00:01:02.078165          Finished saving settings file "C:\kali-linux-2024.2-virtualbox-amd64\kali-linux-2024.2-virtualbox-amd64.vbox"
+00:01:02.659413          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:01:37.559115          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:01:39.803219          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saving)}, preserve=false aResultDetail=0
+00:01:49.003021          Saving settings file "C:\kali-linux-2024.2-virtualbox-amd64\kali-linux-2024.2-virtualbox-amd64.vbox" with version "1.19-windows"
+00:01:49.130311          Finished saving settings file "C:\kali-linux-2024.2-virtualbox-amd64\kali-linux-2024.2-virtualbox-amd64.vbox"
+00:01:49.187488          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:01:49.282902          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:01:49.289019          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:01:49.451401 SaveState Saving settings file "C:\kali-linux-2024.2-virtualbox-amd64\kali-linux-2024.2-virtualbox-amd64.vbox" with version "1.19-windows"
+00:01:49.841558 SaveState Finished saving settings file "C:\kali-linux-2024.2-virtualbox-amd64\kali-linux-2024.2-virtualbox-amd64.vbox"
+00:01:49.907790          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:01:51.465789          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:02:00.264756 main     VirtualBox: object deletion starts
+00:02:00.264960 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\hp\VirtualBox VMs\target\Snapshots/{65a212f7-ea38-4b62-a9fe-0242cc71c9fb}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:02:00.274043 main     ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={6cc49055-dad4-4496-85cf-3f76bcb3b5fa} aComponent={SnapshotWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:02:00.277159 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\kali-linux-2024.2-virtualbox-amd64\kali-linux-2024.2-virtualbox-amd64.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:02:00.298942 main     HostDnsMonitor: shutting down ...
+00:02:00.299060 main     HostDnsMonitor: shut down
+00:02:00.306246 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:02:00.308309 main     VirtualBox: object deleted
